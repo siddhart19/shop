@@ -5,14 +5,14 @@ var images = ["Screenshot_20210602-00050_WatsAppBusiness.jpeg",
              ];
 
              var i = 0;
-             function updatedImage()
+             function updatedimage()
              {
                  i++;
   var number_of_images = 4
                  if(i >number_of_images)
                  {
                      i = 0;
-                     var updatedImage = images[i];
-                     document.getElementById("furniture").innerHTML=updatedImage;
+                     var updatedimage = images[i];
+                     document.getElementById("furniture").innerHTML=updatedimage();
                  }
                 }

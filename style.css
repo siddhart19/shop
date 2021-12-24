@@ -1,7 +1,7 @@
 .style{
 text-emphasis-style:cursive ;
 }
-#img1{
+#img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8,#img9,#img10,#img11,#img12{
     height: 600px;
     width: 500px;
 }
@@ -26,3 +26,6 @@ cursor: pointer;
         font-family:fantasy;
          font-size: 20px
          }
+backgroung{
+    color:forestgreen
+}
